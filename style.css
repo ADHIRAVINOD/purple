@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+}
+
+.home-header {
+    background-color: #191717;
+}
+
+
+.navbar-home {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* carousel */
+.c-img {
+    height: 100vh;
+}
+
+.head-c {
+    font-size: 85px;
+    color: rgb(190, 28, 131);
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    z-index: 1;
+}
+
+.para-c {
+    font-size: 40px;
+    color: #950546;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    z-index: 1;
+}
+
+/* */
+
+.h-personal {
+    font-size: 40px;
+    font-weight: 700;
+    color: #021c38;
+}
+
+
+#street-head {
+    color: rgb(45, 41, 41);
+    font-family: "DM Serif Display", serif;
+}
+
+.span-str {
+    color: #DAA520;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    padding: 20px;
+    transition: 1s;
+
+}
+
+#sp-week {
+    width: 100px;
+    height: auto;
+    padding: 0px 5px 10px 10px;
+    border-radius: 100%;
+    border: solid;
+    margin: 0px 9px;
+    color: black;
+    border-color: black;
+    border-bottom-width: 5px;
+    font-size: 30px;
+}
+
+#h1-week {
+    color: black;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.li-foot {
+    background-color: transparent;
+    color: rgb(147, 73, 123);
+    border: none;
+    border-bottom: solid 1px rgb(97, 3, 63);
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+}
+
+.list-foot {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.link-foot {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
